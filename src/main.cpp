@@ -17,7 +17,7 @@ bool shooter_value = false, servo_intake = false;
 void setup() 
 {
   pwm.begin();
-  pwm.setOscillatorFrequency(27000000);
+  pwm.setOscillatorFrequency(2400000);
   pwm.setPWMFreq(60);
   Wire.setClock(400000);
   Serial.begin(115200);
